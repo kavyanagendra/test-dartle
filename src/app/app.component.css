@@ -7,13 +7,26 @@
 }
 
 .box {
-    width: calc(20% - 10px);
-    height: 100%;
     background-color: #F7F7F7;
     border-radius: 5px;
     padding: 50px;
+    font-size: 15px;
 }
 
 .box:last-child {
     margin-right: 0;
+}
+
+.header-div{
+    text-align: left;
+}
+
+.orange_element{
+    color: #FF6634;
+    font-size: 20px;
+}
+
+.orange_numbers {
+    color: #FF6634;
+    font-size: 30px;
 }

@@ -1,0 +1,19 @@
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: white;
+    gap: 30px;
+}
+
+.box {
+    width: calc(20% - 10px);
+    height: 100%;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.box:last-child {
+    margin-right: 0;
+}

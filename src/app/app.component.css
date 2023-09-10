@@ -32,6 +32,15 @@
     border-radius: 5px; 
     width: 120px;
 }
+
+.orange-border-button {
+    background-color: white;
+    color: #FF6634;
+    border: 2px solid #FF6634;
+    border-radius: 5px;
+    width: 120px;
+}
+
 .box {
     background-color: #F7F7F7;
     border-radius: 5px;

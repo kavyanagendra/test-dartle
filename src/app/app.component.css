@@ -37,10 +37,12 @@
 }
 
 .flex-row{
-   display: flex; 
-   flex-direction: row; 
-   gap: 30p
-}
+    display: flex; 
+    flex-direction: row; 
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}   
 
 .box:last-child {
     margin-right: 0;

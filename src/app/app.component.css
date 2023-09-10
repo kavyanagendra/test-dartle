@@ -1,4 +1,6 @@
 .box-container {
+    width: 100%;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -10,6 +12,8 @@
 }
 
 .box2-container{
+    width: 100%;
+    max-width: 1000px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -26,6 +30,12 @@
     border-radius: 5px;
     padding: 50px;
     font-size: 15px;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    gap: 70%
 }
 
 .grey-circle{
@@ -73,6 +83,11 @@
         align-items: center;
     }
 
+    .box-container,
+    .box2-container {
+        width: 300px;
+    }
+
     .box {
         width: 100%;
         padding: 20px;
@@ -81,5 +96,11 @@
 
     .grey-box-container {
         flex-direction: column;
+    }
+
+    .heading-container {
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
     }
 }

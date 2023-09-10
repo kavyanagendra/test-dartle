@@ -25,6 +25,13 @@
     box-shadow: #d4d4d4;
 }
 
+.orange-button{
+    background-color: #FF6634; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    width: 120px;
+}
 .box {
     background-color: #F7F7F7;
     border-radius: 5px;

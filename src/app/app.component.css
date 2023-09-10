@@ -4,6 +4,21 @@
     padding: 40px;
     background-color: white;
     gap: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: #d4d4d4;
+}
+
+.box2-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: white;
+    gap: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: #d4d4d4;
 }
 
 .box {
@@ -11,6 +26,20 @@
     border-radius: 5px;
     padding: 50px;
     font-size: 15px;
+}
+
+.grey-circle{
+    width: 40px;
+    height: 40px;
+    background-color: #D7D7D7;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.flex-row{
+   display: flex; 
+   flex-direction: row; 
+   gap: 30p
 }
 
 .box:last-child {
@@ -31,6 +60,11 @@
     font-size: 30px;
 }
 
+.grey-box-container{
+    display: flex; 
+    gap: 30px
+}
+
 @media (max-width: 768px) {
     .box-container {
         flex-direction: column;
@@ -41,5 +75,9 @@
         width: 100%;
         padding: 20px;
         margin-bottom: 20px;
+    }
+
+    .grey-box-container {
+        flex-direction: column;
     }
 }
